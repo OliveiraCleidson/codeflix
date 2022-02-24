@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Microsservico de administracao do catalogo de videos codeflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "npx ts-node",
+    "clean:tsc": "rm tsconfig.tsbuildinfo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "^14.15"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.12",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
