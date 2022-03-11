@@ -4,7 +4,7 @@
   "description": "Microsservico de administracao do catalogo de videos codeflix",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "ts-node": "npx ts-node",
     "clean:tsc": "rm tsconfig.tsbuildinfo"
   },
@@ -15,8 +15,17 @@
     "node": "^14.15"
   },
   "devDependencies": {
+    "@swc/core": "^1.2.144",
+    "@swc/jest": "^0.2.17",
+    "@types/jest": "^27.4.1",
+    "@types/lodash": "^4.14.178",
     "@types/node": "^14.18.12",
+    "@types/uuid": "^8.3.4",
+    "jest": "^27.5.1",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
   }
 }
