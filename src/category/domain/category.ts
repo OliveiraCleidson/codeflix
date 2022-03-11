@@ -1,4 +1,3 @@
-import {v4 as uuid} from 'uuid'
 import UniqueEntityId from '../../@seedwork/domain/unique-entity-id.vo'
 
 
@@ -8,7 +7,6 @@ import UniqueEntityId from '../../@seedwork/domain/unique-entity-id.vo'
     description?: string,
     created_at?: Date
   }
-  
   export class Category { 
     public readonly id: UniqueEntityId;
 
